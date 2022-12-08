@@ -1,0 +1,210 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+  /* background-image: url(https://www.bing.com/images/search?view=detailV2&ccid=042h6s1A&id=8DE73C6773E954B2ABC27387E9590ED2180E5F09&thid=OIP.042h6s1AsKpvQts5qdUrVQHaE0&mediaurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.d38da1eacd40b0aa6f42db39a9d52b55%3frik%3dCV8OGNIOWemHcw%26riu%3dhttp%253a%252f%252fwww.wallpapersin4k.org%252fwp-content%252fuploads%252f2017%252f04%252fComputer-Network-Wallpaper-5.jpg%26ehk%3d6CQUQFih1XGrRIhRdUxYdGzyfouuNbppfbTTcE%252bf9AQ%253d%26risl%3d1%26pid%3dImgRaw%26r%3d0&exph=2212&expw=3400&q=network+related+images&simid=607996932445645062&FORM=IRPRST&ck=DC9F6495515F991394E6B949A1B30A1F&selectedIndex=3); */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat-Bold";
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-image: url('ipaddress2.jpg');
+  background-color: #9d6fd8;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+/* Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+
+#title {
+  background-color: #7c6399;
+  color: #fff;
+  text-align: left;
+  min-height:100vh;
+  /* max-width: 200vh; */
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Title Image */
+
+.title-image {
+  width: 90%;
+  /* transform: rotate(25deg); */
+  position: relative;
+  right: -8%;
+  border-radius: 179px;
+}
+
+/* Features Section */
+
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-text {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 33%;
+  border-radius: 100%;
+  margin-left: 301px;
+}
+
+#press {
+  display: flex;
+  background-color: #eaf3ee;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 20%;
+  margin: 10px 15px 10px;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* CTA Section */
+
+/* Footer Section */
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+
+  }
+
+  .title-image {
+    position: fixed;
+    /* position: static; */
+    /* transform: rotate(0); */
+  }
+}
+
+@media (max-width: 900px) {
+  #title {
+margin-left:100px;
+    
+  }
+  .numberof{
+margin-left:100px;
+}
+  .title-image {
+    position: fixed;
+    /* position: static; */
+    /* transform: rotate(0); */
+  }
+}
+.classes{
+    background-image: url(static/images/classes.jpeg);
+    background-repeat: no-repeat;
+    width: 797px;
+    height: 372px;
+    margin-left: 320px;
+}
+
